@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+        integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="./game.css">
+    <script src="./game.js" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="game-board" class="pure-button">
+            <button id="use-callback">Use a Callback</button>
+            <button id="use-promise">Use a Promise</button>
+            <button id="use-async-await">Use Async/Await</button>
+        </div>
+        <div id="score"></div>
+        <div id="category-title"></div>
+        <div id="question"></div>
+        <div id="value"></div>
+        <div id="invalid-count"></div>
+        <form action="" class="pure-form">
+            <textarea id="player-response" class="pure-input-1"></textarea>
+        </form>
+        <button id="check-response" class="pure-button is-hidden">Check Response</button>
+        <div id="answer" class="is-hidden"></div>
+    </main>
+</body>
+</html>
